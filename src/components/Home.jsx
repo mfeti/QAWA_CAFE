@@ -27,7 +27,7 @@ function Home() {
               className="w-[300px] sm:w-[450px] sm:scale-110 spin"
             />
             {/* hey coder */}
-            <div className="absolute lg:top-5 lg:left-5 -top-5 left-0">
+            <div className="absolute lg:top-5 lg:left-5 -top-3 left-0">
               <Button styles="py-3 rounded-xl whitespace-nowrap bg-gradient-to-r from-primary to-secondary">
                 Hey Coder
               </Button>
