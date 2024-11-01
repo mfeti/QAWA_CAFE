@@ -1,7 +1,7 @@
 import { ServicesData } from "../constant";
 function Services() {
   return (
-    <section className="">
+    <section id="services">
       <div className="container sm:py-14 py-7">
         {/* heading section */}
         <h2 className="mb-16 font-cursive text-dark text-4xl font-bold tracking-wider text-center">
