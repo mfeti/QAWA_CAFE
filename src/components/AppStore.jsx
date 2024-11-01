@@ -8,7 +8,7 @@ const bgImage = {
 function AppStore() {
   return (
     <section style={bgImage}>
-      <div className="container sm:py-14 py-7 min-h-[250px] flexr items-center">
+      <div className="container sm:py-14 py-7 min-h-[250px] flex items-center">
         <div className="flex justify-start items-center gap-24">
           <div className="sm:w-1/2 space-y-4">
             <h2 className="sm:text-4xl text-2xl w-full font-semibold text-gray-300">
