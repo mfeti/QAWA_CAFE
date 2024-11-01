@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Home from "./components/Home";
+import Services from "./components/Services";
 
 function App() {
   useEffect(function () {
@@ -21,6 +22,7 @@ function App() {
       </header>
       <main>
         <Home />
+        <Services />
       </main>
       <footer></footer>
     </div>

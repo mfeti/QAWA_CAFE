@@ -3,7 +3,7 @@ import { Coffee2 } from "../assets";
 
 function Home() {
   return (
-    <section className="bg-brandDark">
+    <section className="bg-brandDark min-h-[550px]">
       <div className="container sm:py-24 py-12">
         <div className="flex md:flex-row flex-col-reverse">
           {/* text content */}
