@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Home from "./components/Home";
 import Services from "./components/Services";
+import Banner from "./components/Banner";
 
 function App() {
   useEffect(function () {
@@ -23,6 +24,7 @@ function App() {
       <main>
         <Home />
         <Services />
+        <Banner />
       </main>
       <footer></footer>
     </div>
