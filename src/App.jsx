@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Home from "./components/Home";
 
 function App() {
   useEffect(function () {
@@ -18,7 +19,9 @@ function App() {
       <header className="bg-gradient-to-r from-secondary to-secondary/90 py-2 shadow-lg">
         <Navbar />
       </header>
-      <main></main>
+      <main>
+        <Home />
+      </main>
       <footer></footer>
     </div>
   );
