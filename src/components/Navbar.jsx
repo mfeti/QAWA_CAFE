@@ -7,16 +7,18 @@ function Navbar() {
     <div className="container">
       <div data-aos="fade" className="flex justify-between items-center">
         {/* Logo section */}
-        <div className="flex items-center gap-2">
-          <img
-            src={CoffeeLogo}
-            alt="Coffee Logo"
-            className="w-14 h-14 object-contain"
-          />
-          <span className="text-white text-3xl font-bold font-cursive sm:whitespace-nowrap">
-            Qawa Cafe
-          </span>
-        </div>
+        <a href="/">
+          <div className="flex items-center gap-2">
+            <img
+              src={CoffeeLogo}
+              alt="Coffee Logo"
+              className="w-14 h-14 object-contain"
+            />
+            <span className="text-white text-3xl font-bold font-cursive sm:whitespace-nowrap tracking-wider">
+              Qawa Cafe
+            </span>
+          </div>
+        </a>
 
         {/* Links section */}
         <nav>
@@ -35,7 +37,7 @@ function Navbar() {
               <Button styles="flex gap-2 justify-center items-center bg-primary shadow-lg">
                 Order{" "}
                 <span>
-                  <FaCoffee />
+                  <FaCoffee className="text-xl" />
                 </span>
               </Button>
             </li>
