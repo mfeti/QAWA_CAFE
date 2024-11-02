@@ -5,9 +5,9 @@ import Button from "../ui/Button";
 function Navbar() {
   return (
     <div className="container">
-      <div data-aos="fade" className="flex justify-between items-center">
+      <div className="flex justify-between items-center">
         {/* Logo section */}
-        <a href="/">
+        <a data-aos="fade-down" href="/">
           <div className="flex items-center gap-2">
             <img
               src={CoffeeLogo}
@@ -21,7 +21,7 @@ function Navbar() {
         </a>
 
         {/* Links section */}
-        <nav>
+        <nav data-aos="fade-down" data-aos-delay="300">
           <ul className="flex justify-center items-center gap-6">
             {navLinks.map((link) => (
               <li key={link.label} className="max-md:hidden">
