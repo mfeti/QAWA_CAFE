@@ -51,7 +51,7 @@ function Banner() {
                 </div>
                 <div
                   data-aos="fade-up"
-                  data-aos-delay="300"
+                  data-aos-delay="200"
                   className="flex gap-3 items-center"
                 >
                   <GiFoodTruck className="text-2xl w-12 h-12 p-3 bg-yellow-100 rounded-full" />
