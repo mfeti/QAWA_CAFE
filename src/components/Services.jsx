@@ -4,7 +4,10 @@ function Services() {
     <section id="services">
       <div className="container sm:py-14 py-7">
         {/* heading section */}
-        <h2 className="mb-16 font-cursive text-dark text-4xl font-bold tracking-wider text-center">
+        <h2
+          data-aos="fade-up"
+          className="mb-16 font-cursive text-dark text-4xl font-bold tracking-wider text-center"
+        >
           Best Coffee For You
         </h2>
         {/* card section */}
