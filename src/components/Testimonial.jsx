@@ -44,13 +44,13 @@ function Testimonial() {
     <section className="sm:py-14 py-7">
       <div className="container">
         {/* header title section */}
-        <div className="mb-5">
+        <div data-aos="fade-up" className="mb-5">
           <h2 className="font-bold font-cursive text-4xl text-center">
             Testimonials
           </h2>
         </div>
         {/* testimonial card section */}
-        <div className="my-6">
+        <div data-aos="zoom-in" className="my-10">
           <Slider {...settings}>
             {TestimonialData.map((data) => (
               <div className="mb-6" key={data.name}>
