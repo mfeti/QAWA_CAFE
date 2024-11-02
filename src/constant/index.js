@@ -14,6 +14,25 @@ export const navLinks = [
   },
 ];
 
+export const footerLinks = [
+  {
+    href: "#home",
+    label: "Home",
+  },
+  {
+    href: "#about",
+    label: "About",
+  },
+  {
+    href: "#contact",
+    label: "Contact",
+  },
+  {
+    href: "#blog",
+    label: "Blog",
+  },
+];
+
 export const ServicesData = [
   {
     img: img2,

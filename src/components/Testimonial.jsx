@@ -50,7 +50,7 @@ function Testimonial() {
           </h2>
         </div>
         {/* testimonial card section */}
-        <div className="">
+        <div className="my-6">
           <Slider {...settings}>
             {TestimonialData.map((data) => (
               <div className="mb-6" key={data.name}>
